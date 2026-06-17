@@ -1,0 +1,112 @@
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(14, 1, 68);
+    color: white;
+    height:15%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    word-spacing: -4px;
+}
+
+h3{
+   margin:0
+}
+
+.listSection{
+    text-align: center;
+}
+
+.listItemBase{
+    display: inline-block;
+    width: 90%;
+    border: 1px solid;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.311);
+}
+
+.internalList{
+ height: 100%;
+ 
+}
+
+.internalList .listItemInternal{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boxShadow{
+    box-shadow: 10px 0 15px gray;
+}
+
+.star{
+    color: rgb(255, 196, 0);
+    font-size: 25px;
+}
+
+.listItemInternal h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.progressBox{
+    margin-left:10px;
+    word-spacing: 10px;
+}
+
+.listItemInternal b{
+    color: rgb(43, 43, 255);
+}
+
+footer{
+    background-color:rgb(197,247,247);
+    text-align: center;
+    height: 90px;
+    margin-top: 100px;
+    line-height: 100px;
+}
+
+
+
+.listItemInternal button{
+    background-color: rgb(252, 135, 0);
+    vertical-align: middle;
+    border-radius: 100px;
+    color: white;
+    width: 70%;
+    height: 30px;
+}
+
+.lineHeight70{
+    line-height: 70px;
+}
+
+.wordSpacing3{
+    word-spacing: 3px;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.verticalAlignMiddle{
+    vertical-align: middle;
+}
+
+@media (max-width :700px) {
+    li{
+        width: 100% !important;
+    }
+}
