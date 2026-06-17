@@ -37,7 +37,7 @@ This project displays a collection of products using card-based layouts with ima
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/product-showcase.git
+git clone https://github.com/sara-ghaffarian/product-showcase.git
 ```
 
 Open `index.html` in your browser.
